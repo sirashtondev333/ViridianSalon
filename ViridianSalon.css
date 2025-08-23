@@ -1,0 +1,235 @@
+* {
+    font-family: "Cinzel", serif;
+    box-sizing: border-box; 
+    background-color: black; 
+}
+
+header {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+ul {
+    font-size: .8em;
+}
+/*
+.fa-fasearch, .fa-fa-shopping-bag {
+
+}
+*/
+
+.hours {
+    display: inline;
+    float: right;
+    margin-bottom: 32em;
+    color: blanchedalmond;
+}
+
+h1, h2, h3, p, h4 {
+    color: blanchedalmond;
+}
+
+.viridian{
+    color: blanchedalmond;
+    font-weight: bold;
+}
+/*
+.placeholder {
+ text-align: end;
+}
+ */
+
+.bigPic {
+    position: absolute;
+    width: 15em;
+    margin-bottom: 50em;
+    margin-right: 15em;
+    z-index: "front";
+}
+
+/*
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+*/
+
+
+
+ul * {
+float: left;
+width: 10%;
+padding-bottom: 30px;
+font-weight: 600;
+background-color: black;
+border: solid 3px red;
+}
+
+
+li {
+    list-style: none;
+}
+
+main {
+    background-image: url(salonimg/salonbackgroundimage.png);
+    clear: both;
+    padding: 20%;
+    background-repeat: no-repeat; 
+    /* height: 10em;
+    width: 10em; */
+}
+
+.arrow {
+        text-align: right;
+        margin-left: 70%;
+    }
+
+.notwhite * {
+    float: left;
+    width: 50%;
+
+}
+
+
+.bottomText * {
+    width: 100%;
+}
+
+/*
+section {
+clear: both;
+} */
+
+.notwhite::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*
+.pictureText *{
+    float: left;
+    width: 100%;
+    padding-left: 12px;
+}
+*/
+
+.pictureText {
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+    color: blanchedalmond;
+}
+
+.pictureText, img {
+    display: block; 
+    margin-bottom: 25em;
+    width: 100%;
+
+}
+
+.discount-section {
+    background-color: black;
+    color: white;
+    border: darkslategray;
+    width: 280px;
+    height: 300px;
+    font-size: 16px;
+}
+
+.discount-section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.hours {
+    writing-mode: vertical-rl; 
+    text-orientation: mixed;
+    color: black;
+    font-size: large;
+    margin-block: 0px;
+    float: right;
+}
+
+h1 {
+   /* position: absolute; */
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+main {
+    color: black;
+}
+
+.ourServices {
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    width: 140px;
+    height: 50px;
+    position: relative;
+    bottom: 95px;
+}
+
+.minisection {
+    float: left;
+    width: 33.3%;
+    margin-top: 72em;
+    position: relative;
+}
+/*
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+}
+*/
+
+.notwhite button {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    width: 125px;
+    height: 50px;
+}
+
+
+.cheese {
+    display: block;
+    margin-top: 26em;
+    z-index: "front";
+}
+
+
+.stylists {
+    height: 20em;
+    width: 15em;
+}
+
+
+.ourlookbook h2{
+    margin-left: 20em;
+}
+
+.ourlookbook img{
+    height: 17em;
+    width: 20%;
+    float: left;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    box-shadow: 8px 8px 15px 15px #3d5341;
+}
+
+/* lalalalala */
