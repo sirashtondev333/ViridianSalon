@@ -9,6 +9,10 @@ header {
     color: blanchedalmond;
 }
 
+body {
+    color: black;
+}
+
 ul {
     font-size: .8em;
 }
@@ -112,7 +116,7 @@ main::after {
     width: 100%;
     padding-left: 12px;
 }
-*/
+
 
 .pictureText {
     text-align: center;
@@ -123,12 +127,13 @@ main::after {
     color: blanchedalmond;
 }
 
+
 .pictureText, img {
     display: block; 
     margin-bottom: 25em;
     width: 100%;
-
 }
+    */
 
 .discount-section {
     background-color: black;
