@@ -1,7 +1,7 @@
 * {
     font-family: "Cinzel", serif;
     box-sizing: border-box; 
-    background-: black; 
+    background: black; 
 }
 
 header {
@@ -16,6 +16,7 @@ body {
 ul {
     font-size: .8em;
 }
+
 /*
 .fa-fasearch, .fa-fa-shopping-bag {
 
@@ -25,7 +26,7 @@ ul {
 .hours {
     display: inline;
     float: right;
-    margin-bottom: 32em;
+    /* margin-bottom: 20em; */
     color: blanchedalmond;
 }
 
@@ -68,13 +69,14 @@ li {
     list-style: none;
 }
 
-main {
+.bigPic {
+    border: solid red 1px;
     background-image: url(salonimg/salonbackgroundimage.png);
     clear: both;
     padding: 20%;
     background-repeat: no-repeat; 
-    /* height: 10em;
-    width: 10em; */
+    height: 40em;
+    width: 10em;
 }
 
 .arrow {
@@ -165,10 +167,6 @@ h1 {
     padding-bottom: 35px;
 }
 
-main {
-    color: black;
-}
-
 .ourServices {
     background-color: black;
     color: white;
@@ -237,8 +235,4 @@ h4 {
     margin-bottom: 50em;
     margin-right: 15em;
     z-index: "front";
-}
-
-.blackbox {
-    border: solid 3px red;
 }
