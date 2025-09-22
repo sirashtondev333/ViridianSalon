@@ -44,17 +44,26 @@ header::after {
     clear: both;
 }
 
+.viridian {
+    font-size: 1.25rem;
+}
+
 ul * {
 float: left;
 width: 10%;
 padding-bottom: 30px;
 font-weight: 600;
+font-size: .9rem;
 background-color: black;
 border: solid 3px blue;
 list-style: none;
 } 
 
-/* Organize the icons similarly to the UL. Consider adding gaps. */
+.icons {
+    gap: 1rem;
+}
+
+
 
 .mainsec {
     background-image: url(/Images/salonbackground10.jpg);
@@ -171,7 +180,7 @@ h1 {
     bottom: 95px;
 }
 
-/*
+
 Mini-section could be useful, look over in the morning.
 .minisection {
     float: left;
@@ -179,7 +188,7 @@ Mini-section could be useful, look over in the morning.
     margin-top: 72em;
     position: relative;
 }
-
+/*
 h4 {
     font-weight: 400;
     font-size: 16px;
@@ -230,3 +239,9 @@ Eliminate if you end up not needing bigpic, which is the background sitting outs
     margin-right: 15em;
     z-index: "front";
 } */
+
+.circle {
+    display: flex;
+    justify-content: center;
+}
+
