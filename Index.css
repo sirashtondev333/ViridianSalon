@@ -17,11 +17,6 @@ ul {
     font-size: .8em;
 }
 
-/*
-.fa-fasearch, .fa-fa-shopping-bag { 
-
-}
-*/
 
 .hours {
     display: inline;
@@ -38,22 +33,16 @@ h1, h2, h3, p, h4 {
     color: blanchedalmond;
     font-weight: bold;
 }
-/*
+
 .placeholder {
  text-align: end;
 }
- */
 
-
-/*
 header::after {
     content: "";
     display: block;
     clear: both;
 }
-*/
-
-
 
 ul * {
 float: left;
@@ -61,23 +50,25 @@ width: 10%;
 padding-bottom: 30px;
 font-weight: 600;
 background-color: black;
-border: solid 3px red;
+border: solid 3px blue;
+list-style: none;
+} 
+
+/* Organize the icons similarly to the UL. Consider adding gaps. */
+
+.mainsec {
+    background-image: url(/Images/salonbackground10.jpg);
+    border: solid greenyellow 1px;
 }
 
-
-li {
-    list-style: none;
-}
-
-.bigPic {
+/* .bigPic {
     border: solid red 1px;
-    background-image: url(salonimg/salonbackgroundimage.png);
     clear: both;
     padding: 20%;
     background-repeat: no-repeat; 
     height: 40em;
     width: 10em;
-}
+} */
 
 .arrow {
         text-align: right;
@@ -99,18 +90,18 @@ li {
 section {
 clear: both;
 } */
-
+/* 
 .notwhite::after {
     content: "";
     display: block;
     clear: both;
-}
+}  */
 
-main::after {
+/* main::after {
     content: "";
     display: block;
     clear: both;
-}
+} */ */
 
 /*
 .pictureText *{
@@ -146,11 +137,11 @@ main::after {
     font-size: 16px;
 }
 
-.discount-section::after {
+/* .discount-section::after {
     content: "";
     display: block;
     clear: both;
-}
+} */
 
 .hours {
     writing-mode: vertical-rl; 
@@ -181,6 +172,7 @@ h1 {
 }
 
 /*
+Mini-section could be useful, look over in the morning.
 .minisection {
     float: left;
     width: 33.3%;
@@ -229,10 +221,12 @@ h4 {
     box-shadow: 8px 8px 15px 15px #3d5341;
 }
 
+/*
+Eliminate if you end up not needing bigpic, which is the background sitting outside the div.
 .bigPic {
     position: absolute;
     width: 15em;
     margin-bottom: 50em;
     margin-right: 15em;
     z-index: "front";
-}
+} */
