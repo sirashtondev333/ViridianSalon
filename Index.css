@@ -51,7 +51,7 @@ header::after {
 ul * {
 float: left;
 width: 10%;
-padding-bottom: 30px;
+padding-bottom: 1.5rem;
 font-weight: 600;
 font-size: .9rem;
 background-color: black;
@@ -63,11 +63,12 @@ list-style: none;
     gap: 1rem;
 }
 
-
-
 .mainsec {
     background-image: url(/Images/salonbackground10.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     border: solid greenyellow 1px;
+    z-index: -1;
 }
 
 /* .bigPic {
@@ -110,7 +111,16 @@ clear: both;
     content: "";
     display: block;
     clear: both;
-} */ */
+} 
+
+  <div class="pictureText">
+        <h1 class="cheese">Show the world your true colors.</p>
+        <div class="ourServices">
+            <a h */ 
+
+.pictureText {
+z-index: 1;
+}
 
 /*
 .pictureText *{
@@ -118,7 +128,6 @@ clear: both;
     width: 100%;
     padding-left: 12px;
 }
-
 
 .pictureText {
     text-align: center;
@@ -128,7 +137,6 @@ clear: both;
     width: 100%;
     color: blanchedalmond;
 }
-
 
 .pictureText, img {
     display: block; 
