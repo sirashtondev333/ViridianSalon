@@ -1,7 +1,6 @@
 * {
     font-family: "Cinzel", serif;
     box-sizing: border-box; 
-    background: black; 
 }
 
 header {
@@ -10,7 +9,7 @@ header {
 }
 
 body {
-    color: black;
+    background-color: black;
 }
 
 ul {
@@ -55,7 +54,7 @@ padding-bottom: 1.5rem;
 font-weight: 600;
 font-size: .9rem;
 background-color: black;
-border: solid 3px blue;
+/* border: solid 3px blue; */
 list-style: none;
 } 
 
@@ -96,10 +95,6 @@ list-style: none;
     width: 100%;
 }
 
-/*
-section {
-clear: both;
-} */
 /* 
 .notwhite::after {
     content: "";
@@ -112,11 +107,6 @@ clear: both;
     display: block;
     clear: both;
 } 
-
-  <div class="pictureText">
-        <h1 class="cheese">Show the world your true colors.</p>
-        <div class="ourServices">
-            <a h */ 
 
 .pictureText {
 z-index: 1;
@@ -176,9 +166,10 @@ h1 {
 }
 
 .ourServices {
-    background-color: black;
-    color: white;
-    font-size: 13px;
+    background-color: rgb(17, 5, 5);
+    color: green;
+    font-size: .8rem;
+    font-weight: 600;
     text-align: center;
     justify-content: center;
     line-height: 50px;
@@ -189,12 +180,12 @@ h1 {
 }
 
 
-Mini-section could be useful, look over in the morning.
-.minisection {
-    float: left;
-    width: 33.3%;
-    margin-top: 72em;
-    position: relative;
+
+.sectiontwo {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    /* position: relative; */
 }
 /*
 h4 {
@@ -213,9 +204,9 @@ h4 {
 
 
 .cheese {
-    display: block;
-    margin-top: 26em;
-    z-index: "front";
+    font-size: 4.5rem;
+    text-shadow: 3px solid #3d5341;
+    z-index: 1;
 }
 
 
