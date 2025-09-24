@@ -135,11 +135,14 @@ z-index: 1;
 }
     */
 
-    /* figure out why this made the background image smaller??? */
+    /* figure out why this made the background image smaller???
+    Also figure out why border doesn't show all of the way. */
 .discount-section {
     background-color: black;
     width: 15rem;
     height: 10rem;
+    border: 1px solid green;
+    border-bottom: 1px solid green;
 }    
 
 .discount-section h4, p, a{
@@ -164,6 +167,7 @@ h1 {
     padding-bottom: 35px;
 }
 
+/* Figure out how to move button lower. */
 .ourServices a{
     background-color: rgb(17, 5, 5);
     color: green;

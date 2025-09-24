@@ -11,6 +11,7 @@ README
 9. Properly resize main big picture. THINK I DID THIS
 
 READ ME PART TWO:
+Move button lower so that it and the h1 in the hero section don't overlap.
 Reformat .ourlookbook img, add border and maybe some additional shadow? But focus on a border first and foremost.
 Figure out how to line up all the .proimages on the same row and make them take up like 33%.
 Figure out potentially how to format things more creatively so this isn't too much like The Poisoned Apple.
