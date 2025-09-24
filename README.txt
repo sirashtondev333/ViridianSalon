@@ -11,6 +11,10 @@ README
 9. Properly resize main big picture. THINK I DID THIS
 
 READ ME PART TWO:
+Reformat .ourlookbook img, add border and maybe some additional shadow? But focus on a border first and foremost.
+Figure out how to line up all the .proimages on the same row and make them take up like 33%.
+Figure out potentially how to format things more creatively so this isn't too much like The Poisoned Apple.
 
+LOOK FOR ICONS AFTER YOU HAVE EVERYTHING FIGURED OUT FORMATTING WISE **AND** AFTER YOU HAVE THE PALETTE SOLIDIFIED
 
 AT END: Build bottom bar like Le Petit Salon. Consider adding a video section like them too.

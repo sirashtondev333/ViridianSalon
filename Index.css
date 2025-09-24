@@ -215,6 +215,7 @@ palette and then make the button below beige? */
     margin-left: 20rem;
 }
 
+/* ABSOLUTELY REFORMAT */
 .ourlookbook img{
     height: 17rem;
     width: 20%;
@@ -240,3 +241,8 @@ Eliminate if you end up not needing bigpic, which is the background sitting outs
     padding-top: 10rem;
 }
 
+.proImage {
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+}
