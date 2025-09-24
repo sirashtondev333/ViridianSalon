@@ -64,7 +64,7 @@ list-style: none;
 
 .mainsec {
     background-image: url(/Images/salonbackground10.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: solid greenyellow 1px;
     z-index: -1;
@@ -135,20 +135,19 @@ z-index: 1;
 }
     */
 
+    /* figure out why this made the background image smaller??? */
 .discount-section {
     background-color: black;
-    color: white;
-    border: darkslategray;
-    width: 280px;
-    height: 300px;
-    font-size: 16px;
-}
+    width: 15rem;
+    height: 10rem;
+}    
 
-/* .discount-section::after {
-    content: "";
-    display: block;
-    clear: both;
-} */
+.discount-section h4, p, a{
+    background-color: black;
+    color: blanchedalmond;
+    border: darkslategray;
+    font-size: 1.5rem;
+}
 
 .hours {
     writing-mode: vertical-rl; 
@@ -165,18 +164,19 @@ h1 {
     padding-bottom: 35px;
 }
 
-.ourServices {
+.ourServices a{
     background-color: rgb(17, 5, 5);
     color: green;
-    font-size: .8rem;
+    border: solid 1px #3d5341;
+    font-size: .9rem;
     font-weight: 600;
     text-align: center;
-    justify-content: center;
-    line-height: 50px;
-    width: 140px;
-    height: 50px;
+    padding: 1.3rem;
+    /* line-height: 3rem; */
+    /* width: 140px;
+    height: 3rem; */
     position: relative;
-    bottom: 95px;
+    bottom: 5.5rem;
 }
 
 
@@ -187,12 +187,6 @@ h1 {
     gap: 20%;
     /* position: relative; */
 }
-/*
-h4 {
-    font-weight: 400;
-    font-size: 16px;
-}
-*/
 
 .notwhite button {
     background-color: black;
@@ -203,30 +197,31 @@ h4 {
 }
 
 
+/* Consider making the below puce or rose quartz, one of the pinker or purpler colors in the
+palette and then make the button below beige? */
 .cheese {
     font-size: 4.5rem;
-    text-shadow: 3px solid #3d5341;
+    text-shadow: 3px 3px solid #3d5341;
     z-index: 1;
 }
 
-
 .stylists {
-    height: 20em;
-    width: 15em;
+    height: 20rem;
+    width: 15rem;
 }
 
 
 .ourlookbook h2{
-    margin-left: 20em;
+    margin-left: 20rem;
 }
 
 .ourlookbook img{
-    height: 17em;
+    height: 17rem;
     width: 20%;
     float: left;
     margin-bottom: 5%;
     margin-left: 8%;
-    box-shadow: 8px 8px 15px 15px #3d5341;
+    box-shadow: .5rem .5rem 1rem 1rem #3d5341;
 }
 
 /*
@@ -242,5 +237,6 @@ Eliminate if you end up not needing bigpic, which is the background sitting outs
 .circle {
     display: flex;
     justify-content: center;
+    padding-top: 10rem;
 }
 
