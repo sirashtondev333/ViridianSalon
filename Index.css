@@ -174,7 +174,9 @@ h1 {
 .sectiontwo {
     display: flex;
     justify-content: center;
-    gap: 20%;
+    gap: 3rem;
+    max-width: 70%;
+    margin: 10rem auto;
     /* position: relative; */
 }
 
@@ -248,6 +250,15 @@ Eliminate if you end up not needing bigpic, which is the background sitting outs
 
 .circle p {
     font-size: .8rem;
+}
+
+.minisection {
+    width: 100%;
+     text-align: center;
+}
+
+.minisection h2 {
+    margin-bottom: 1rem;
 }
 
 .pro-image {
