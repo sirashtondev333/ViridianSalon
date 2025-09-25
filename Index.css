@@ -58,7 +58,7 @@ background-color: black;
 list-style: none;
 } 
 
-.icons {
+.theicons {
     gap: 1rem;
 }
 
@@ -69,15 +69,6 @@ list-style: none;
     border: solid greenyellow 1px;
     z-index: -1;
 }
-
-/* .bigPic {
-    border: solid red 1px;
-    clear: both;
-    padding: 20%;
-    background-repeat: no-repeat; 
-    height: 40em;
-    width: 10em;
-} */
 
 .arrow {
         text-align: right;
@@ -107,10 +98,6 @@ list-style: none;
     display: block;
     clear: both;
 } 
-
-.pictureText {
-z-index: 1;
-}
 
 /*
 .pictureText *{
@@ -220,7 +207,13 @@ palette and then make the button below beige? */
     text-align: center;
 }
 
-/* ABSOLUTELY REFORMAT */
+/*change below when you have the stylists properly formatted, won't need nearly as much
+padding if any. */
+
+.ourlookbook {
+    padding-top: 15rem;
+}
+
 .ourlookbook img{
     height: 17rem;
     width: 20%;
@@ -244,6 +237,10 @@ Eliminate if you end up not needing bigpic, which is the background sitting outs
     display: flex;
     justify-content: center;
     padding-top: 10rem;
+}
+
+.circle p {
+    font-size: .8rem;
 }
 
 .proImage {
