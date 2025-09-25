@@ -4,10 +4,11 @@
     src:url(/Fonts/Velvetique.otf);
 }
 
-
 * {
     font-family: "Cinzel", serif;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
 }
 
 header {
@@ -31,13 +32,14 @@ ul {
     color: blanchedalmond;
 }
 
-h1, h2, h3, p, h4 {
+h2, h3, p, h4 {
     color: blanchedalmond;
 }
 
 .viridian{
     color: blanchedalmond;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .placeholder {
@@ -50,26 +52,30 @@ header::after {
     clear: both;
 }
 
-.viridian {
-    font-size: 1.25rem;
-}
-
-ul * {
-float: left;
-width: 10%;
-padding-bottom: 1.5rem;
-font-weight: 600;
-font-size: .9rem;
-background-color: black;
-/* border: solid 3px blue; */
-list-style: none;
+ul  { 
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: .9rem;
+    background-color: black;
+    list-style: none;
+    display: flex;
+    outline: 1px solid purple;
 } 
 
 .theicons {
+    display: flex;
     gap: 1rem;
 }
 
+ input {
+  font-size: .9rem; 
+  padding-left: .25rem;
+} 
+
 .mainsec {
+    height: 100vh;
     background-image: url(/Images/salonbackground10.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -99,50 +105,35 @@ list-style: none;
     clear: both;
 }  */
 
-/* main::after {
-    content: "";
-    display: block;
-    clear: both;
-} 
+.picture-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
 
-/*
-.pictureText *{
-    float: left;
-    width: 100%;
-    padding-left: 12px;
 }
 
-.pictureText {
-    text-align: center;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 100%;
-    color: blanchedalmond;
-}
-
-.pictureText, img {
-    display: block; 
-    margin-bottom: 25em;
-    width: 100%;
-}
-    */
-
-    /* figure out why this made the background image smaller???
-    Also figure out why border doesn't show all of the way. */
 .discount-section {
-    background-color: black;
-    width: 15rem;
-    height: 10rem;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1rem;
+    max-width: 33%; 
     border: 1px solid green;
-    border-bottom: 1px solid green;
+    align-self: flex-end;
 }    
 
-.discount-section h4, p, a{
-    background-color: black;
+.discount-section h4, .discount-section p{
+    background-color: rgba(0, 0, 0,);
     color: blanchedalmond;
     border: darkslategray;
     font-size: 1.5rem;
+}
+
+.bookonlinebutton {
+   display: inline-block;
+   background-color: black; 
+    border: 1px solid #a790a5;
+    margin-top: 2rem;
+    padding: 0 1rem;
 }
 
 .hours {
@@ -256,3 +247,6 @@ Eliminate if you end up not needing bigpic, which is the background sitting outs
     justify-content: center;
     width: 10rem;
 }
+
+/* ASHTON. LET'S ADD OPACITY TO RIGHT SIDE, AND THEN SEE IF YOU WANT TO DO A CAROUSEL WITH VARYING
+SIZES THAT TAKE UP THE WHOLE AREA LIKE THE BIG PIC, AND THE OTHERS BEING HALFISES. NOT EASY BUT LIKE IT. */
