@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: "Velvetique";
+    src:url(/Fonts/Velvetique.otf);
+}
+
+
 * {
     font-family: "Cinzel", serif;
     box-sizing: border-box; 
@@ -67,7 +74,6 @@ list-style: none;
     background-size: cover;
     background-repeat: no-repeat;
     border: solid greenyellow 1px;
-    z-index: -1;
 }
 
 .arrow {
@@ -149,15 +155,17 @@ list-style: none;
 }
 
 h1 {
-   /* position: absolute; */
+    color: #a790a5;
+    text-align: center;
     font-weight: 300;
     padding-bottom: 35px;
+    text-shadow: 1.25px 1.25px 5px black;
 }
 
 /* Figure out how to move button lower. */
 .ourServices a{
     background-color: rgb(17, 5, 5);
-    color: green;
+    color: #a790a5;
     border: solid 1px #3d5341;
     font-size: .9rem;
     font-weight: 600;
@@ -191,9 +199,9 @@ h1 {
 /* Consider making the below puce or rose quartz, one of the pinker or purpler colors in the
 palette and then make the button below beige? */
 .cheese {
+    font-family: 'Velvetique';
     font-size: 4.5rem;
     text-shadow: 3px 3px solid #3d5341;
-    z-index: 1;
 }
 
 .stylists {
@@ -243,7 +251,7 @@ Eliminate if you end up not needing bigpic, which is the background sitting outs
     font-size: .8rem;
 }
 
-.proImage {
+.pro-image {
     display: flex;
     justify-content: center;
     width: 10rem;
