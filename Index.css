@@ -37,9 +37,11 @@ h2, h3, p, h4 {
 }
 
 .viridian{
-    color: blanchedalmond;
+    color: #ffffff;
+    font-family: 'Velvetique';
     font-weight: bold;
     font-size: 1.5rem;
+    text-shadow: 2rem #a790a5;
 }
 
 .placeholder {
@@ -61,7 +63,6 @@ ul  {
     background-color: black;
     list-style: none;
     display: flex;
-    outline: 1px solid purple;
 } 
 
 .theicons {
@@ -79,7 +80,7 @@ ul  {
     background-image: url(/Images/salonbackground10.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border: solid greenyellow 1px;
+    border: solid purple 1px;
 }
 
 .arrow {
@@ -117,8 +118,9 @@ ul  {
     background-color: rgba(0, 0, 0, .5);
     padding: 1rem;
     max-width: 33%; 
-    border: 1px solid green;
+    border: 1px solid purple;
     align-self: flex-end;
+    text-shadow: 10px 10px solid #3d5341;
 }    
 
 .discount-section h4, .discount-section p{
@@ -131,7 +133,7 @@ ul  {
 .bookonlinebutton {
    display: inline-block;
    background-color: black; 
-    border: 1px solid #a790a5;
+    border: 1px solid purple;
     margin-top: 2rem;
     padding: 0 1rem;
 }
@@ -146,7 +148,7 @@ ul  {
 }
 
 h1 {
-    color: #a790a5;
+    color: purple;
     text-align: center;
     font-weight: 300;
     padding-bottom: 35px;
@@ -179,14 +181,14 @@ h1 {
     margin: 10rem auto;
     /* position: relative; */
 }
-
+/* 
 .notwhite button {
     background-color: black;
     color: white;
     font-size: 14px;
     width: 125px;
     height: 50px;
-}
+} */
 
 
 /* Consider making the below puce or rose quartz, one of the pinker or purpler colors in the
@@ -204,7 +206,8 @@ h3 {
 
 .toprow, .bottomrow {
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
     gap: 1rem; 
     text-align: center;
     margin: 0 auto 1rem;
@@ -226,7 +229,7 @@ padding if any. */
 .ourlookbook img{
     height: 17rem;
     width: 20%;
-    float: left;
+    display: flex;
     margin-bottom: 5%;
     margin-left: 8%;
     border: 4px solid #3d5341;
@@ -267,5 +270,17 @@ Eliminate if you end up not needing bigpic, which is the background sitting outs
     width: 10rem;
 }
 
+.iconlist {}
 /* ASHTON. LET'S ADD OPACITY TO RIGHT SIDE, AND THEN SEE IF YOU WANT TO DO A CAROUSEL WITH VARYING
-SIZES THAT TAKE UP THE WHOLE AREA LIKE THE BIG PIC, AND THE OTHERS BEING HALFISES. NOT EASY BUT LIKE IT. */
+SIZES THAT TAKE UP THE WHOLE AREA LIKE THE BIG PIC, AND THE OTHERS BEING HALFISES. NOT EASY BUT LIKE IT. 
+ADD A FOOTER MY LAD.*/
+
+/* Pomp and power: #885A89
+tekehlet: #592E83
+#62466B
+veronica #A734CD
+purpureus #8F47A8
+amethyst #AA6BBF
+lavender #CA7DE4
+dark purple #361D3F
+plum #71477F */
