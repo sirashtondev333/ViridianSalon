@@ -80,7 +80,7 @@ ul  {
     background-image: url(/Images/salonbackground10.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border: solid purple 1px;
+    border: solid #885A89 1px;
 }
 
 .arrow {
@@ -148,7 +148,7 @@ ul  {
 }
 
 h1 {
-    color: purple;
+    color: #885A89;
     text-align: center;
     font-weight: 300;
     padding-bottom: 35px;
@@ -170,7 +170,6 @@ h1 {
     position: relative;
     bottom: 5.5rem;
 }
-
 
 
 .sectiontwo {
@@ -276,11 +275,29 @@ SIZES THAT TAKE UP THE WHOLE AREA LIKE THE BIG PIC, AND THE OTHERS BEING HALFISE
 ADD A FOOTER MY LAD.*/
 
 /* Pomp and power: #885A89
+Verdict: Like it! Potential new color.
+
 tekehlet: #592E83
+Verdict: nah
+
 #62466B
+verdict: a bit muted but has potential. could work well as a third purple with the gray-purple
+and the first one on this list.
+
 veronica #A734CD
+Verdict: Unlikely.
+
 purpureus #8F47A8
+Verdict: Better than the last one but not as good. They would go well together.
+
 amethyst #AA6BBF
+Verdict: looks too much like last one, same thoughts and feelings tbh.
+
 lavender #CA7DE4
+Verdict: eh. Probably not.
+
 dark purple #361D3F
-plum #71477F */
+Verdict: Might have a place if I want a dark purple but royal is too bright and the others don't fit?
+
+plum #71477F 
+Verdict: If I change my mind about the others it could be a good border.*/
