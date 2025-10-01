@@ -118,7 +118,7 @@ ul  {
     background-color: rgba(0, 0, 0, .5);
     padding: 1rem;
     max-width: 33%; 
-    border: 1px solid purple;
+    border: 1px solid #71477F ;
     align-self: flex-end;
     text-shadow: 10px 10px solid #3d5341;
 }    
@@ -133,7 +133,7 @@ ul  {
 .bookonlinebutton {
    display: inline-block;
    background-color: black; 
-    border: 1px solid purple;
+    border: 1px solid #71477F ;
     margin-top: 2rem;
     padding: 0 1rem;
 }
@@ -199,6 +199,7 @@ palette and then make the button below beige? */
 }
 
 h3 {
+    font-size: 2.5rem;
     text-align: center;
     margin-bottom: 2rem; 
 }
@@ -216,6 +217,7 @@ h3 {
 .ourlookbook h2{
     font-size: 2.5rem;
     text-align: center;
+    color: #885A89;
 }
 
 /*change below when you have the stylists properly formatted, won't need nearly as much
@@ -229,6 +231,7 @@ padding if any. */
     height: 17rem;
     width: 20%;
     display: flex;
+    justify-content: center;
     margin-bottom: 5%;
     margin-left: 8%;
     border: 4px solid #3d5341;
@@ -245,8 +248,8 @@ Eliminate if you end up not needing bigpic, which is the background sitting outs
 } */
 
 .circle {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     padding-top: 10rem;
 }
 
@@ -260,14 +263,17 @@ Eliminate if you end up not needing bigpic, which is the background sitting outs
 }
 
 .minisection h2 {
+    color: #885A89;
     margin-bottom: 1rem;
+    
 }
 
-.pro-image {
-    display: flex;
+ .shay, .sophie, .cat, .marco, .rufus {
+  /*  display: flex;
     justify-content: center;
+    flex-direction: column; */
     width: 10rem;
-}
+} 
 
 .iconlist {}
 /* ASHTON. LET'S ADD OPACITY TO RIGHT SIDE, AND THEN SEE IF YOU WANT TO DO A CAROUSEL WITH VARYING
