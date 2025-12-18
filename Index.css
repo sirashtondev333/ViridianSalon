@@ -36,17 +36,11 @@ header {
 }
 
 body {
-    background: linear-gradient(whitesmoke, whitesmoke, black, black)
+    background: linear-gradient(whitesmoke, whitesmoke, black, whitesmoke)
 }
 
 ul {
     font-size: .8em;
-}
-
-
-.hours span{
-    color: black;
-    font-size: 6rem;
 }
 
 h2, h3, p, h4 {
@@ -64,7 +58,7 @@ h2, h3, p, h4 {
 
 .viridian{
     color: black;
-    font-family: 'Oceanside typewriter';
+    font-family: 'Typewriter';
     font-weight: bold;
     font-size: 1.5rem;
     text-shadow: 2rem #a790a5;
@@ -209,6 +203,10 @@ h1 {
     bottom: 5.5rem;
 }
 
+.hours span{
+    color: black;
+    font-size: 6rem;
+}
 
 .sectiontwo {
     display: flex;
@@ -308,7 +306,7 @@ h3 {
 .ourlookbook h2{
     font-size: 5rem;
     text-align: center;
-    color: #d1001c;
+    color: #fabf40;
 }
 
 
