@@ -113,13 +113,7 @@ ul  {
     width: 50%;
 
 }
-*/
 
-.bottomText * {
-    width: 100%;
-}
-
-/* 
 .notwhite::after {
     content: "";
     display: block;
@@ -132,6 +126,12 @@ ul  {
     justify-content: space-around;
     height: 100%;
 
+}
+
+.cheese {
+    font-family: 'Typewriter';
+    font-size: 4.5rem;
+    text-shadow: 3px 3px solid #3d5341;
 }
 
 .discount-section {
@@ -212,11 +212,6 @@ h1 {
 
 /* Consider making the below puce or rose quartz, one of the pinker or purpler colors in the
 palette and then make the button below beige? */
-.cheese {
-    font-family: 'Typewriter';
-    font-size: 4.5rem;
-    text-shadow: 3px 3px solid #3d5341;
-}
 
 h3 {
     font-size: 2.5rem;
@@ -224,16 +219,22 @@ h3 {
     margin-bottom: 2rem; 
 }
 
+.toprow {
+    display: flex;
+    flex-direction: row;
+}
+
+/*
 .toprow, .bottomrow {
     display: flex;
     flex-direction: row-reverse;
-    /* justify-content: center; */
+    justify-content: center; 
     gap: 1rem; 
     text-align: center;
     margin: 0 auto 1rem;
 }
 
-/* Consider a different font. */
+ Consider a different font. */
 .ourlookbook h2{
     font-size: 2.5rem;
     text-align: center;
