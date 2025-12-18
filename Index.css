@@ -46,14 +46,17 @@ ul {
 
 
 .hours {
-    display: inline;
-    float: right;
-    /* margin-bottom: 20em; */
     color: blanchedalmond;
 }
 
 h2, h3, p, h4 {
     color: blanchedalmond;
+}
+
+
+.logo {
+    height: 7rem;
+    width: 5.5rem;
 }
 
 .viridian{
@@ -200,6 +203,16 @@ h1 {
     margin: 10rem auto;
     /* position: relative; */
 }
+
+.minisection {
+    width: 100%;
+     text-align: center;
+}
+
+ .minisection h2 {
+    margin-bottom: 1rem;
+    
+} 
 /* 
 .notwhite button {
     background-color: black;
@@ -221,7 +234,29 @@ h3 {
 
 .toprow {
     display: flex;
+    flex-direction: row; 
+    align-content: center;
+    justify-content: center;
+}
+
+.rufus, .marco, .cat, .sophie, .shay p {
+    text-align: center;
+}
+
+.rufus {
+    padding-right: 3rem;
+}
+
+.cat, .sophie {
+    padding-right: 2.7rem;
+}
+
+
+.bottomrow {
+    display: flex;
     flex-direction: row;
+    align-content: center;
+    justify-content: center;
 }
 
 /*
@@ -238,6 +273,7 @@ h3 {
 .ourlookbook h2{
     font-size: 2.5rem;
     text-align: center;
+    
     color: #885A89;
 }
 
@@ -251,8 +287,10 @@ padding if any. */
 .ourlookbook img{
     height: 17rem;
     width: 20%;
-    display: flex;
+    flex-direction: row;
+    align-content: center;
     justify-content: center;
+    display: flex;
     margin-bottom: 5%;
     margin-left: 8%;
     border: 4px solid #3d5341;
@@ -278,28 +316,14 @@ Eliminate if you end up not needing bigpic, which is the background sitting outs
     font-size: .8rem;
 }
 
-.minisection {
-    width: 100%;
-     text-align: center;
-}
 
-.minisection h2 {
-    color: #885A89;
-    margin-bottom: 1rem;
-    
-}
-
- .shay, .sophie, .cat, .marco, .rufus {
-  /*  display: flex;
+ /*.shay, .sophie, .cat, .marco, .rufus {
+    display: flex;
     justify-content: center;
-    flex-direction: column; */
-    width: 10rem;
-} 
+    flex-direction: column; 
+    width: 10rem; 
+} */
 
-
-.cheddar {
-color: #8F47A8;
-}
 
 .iconlist {}
 /* ASHTON. LET'S ADD OPACITY TO RIGHT SIDE, AND THEN SEE IF YOU WANT TO DO A CAROUSEL WITH VARYING
