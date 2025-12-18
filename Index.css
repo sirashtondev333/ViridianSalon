@@ -32,12 +32,11 @@
 }
 
 header {
-    background-color: black;
-    color: blanchedalmond;
+    color: white;
 }
 
 body {
-    background-color: black;
+    background: linear-gradient(whitesmoke, whitesmoke, black, black)
 }
 
 ul {
@@ -46,13 +45,16 @@ ul {
 
 
 .hours {
-    color: blanchedalmond;
+    color: black;
 }
 
 h2, h3, p, h4 {
-    color: blanchedalmond;
+    color: black;
 }
 
+.logoholder {
+    align-content: center;
+}
 
 .logo {
     height: 7rem;
@@ -60,7 +62,7 @@ h2, h3, p, h4 {
 }
 
 .viridian{
-    color: #ffffff;
+    color: black;
     font-family: 'Oceanside typewriter';
     font-weight: bold;
     font-size: 1.5rem;
@@ -83,7 +85,8 @@ ul  {
     margin-bottom: 1.5rem;
     font-weight: 600;
     font-size: .9rem;
-    background-color: black;
+    background-color: whitesmoke;
+    color: #9dd8a0;
     list-style: none;
     display: flex;
 } 
@@ -103,7 +106,7 @@ ul  {
     background-image: url(/Images/salonbackground6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border: solid #885A89 1px;
+    border: solid black 1px;
 }
 
 .arrow {
@@ -132,23 +135,24 @@ ul  {
 }
 
 .cheese {
+    color: #d1001c;
     font-family: 'Typewriter';
     font-size: 4.5rem;
-    text-shadow: 3px 3px solid #3d5341;
+    text-shadow: 3px 3px solid #ff1010;
 }
 
 .discount-section {
     background-color: rgba(0, 0, 0, .5);
     padding: 1rem;
     max-width: 33%; 
-    border: 1px solid #8F47A8;
+    border: 1px solid black;
     align-self: flex-end;
-    text-shadow: 10px 10px solid #3d5341;
+    text-shadow: 10px 10px solid;
 }    
 
-.discount-section h4, .discount-section p{
+.discount-section h4, p{
     background-color: rgba(0, 0, 0,);
-    color: blanchedalmond;
+    color: #fabf40;
     border: darkslategray;
     font-size: 1.5rem;
 }
@@ -156,7 +160,7 @@ ul  {
 .bookonlinebutton {
    display: inline-block;
    background-color: black; 
-    border: 1px solid #71477F ;
+    border: 1px solid #d1001c ;
     margin-top: 2rem;
     padding: 0 1rem;
 }
@@ -245,40 +249,52 @@ h3 {
 
 .rufus {
     padding-right: 3rem;
+    
 }
 
-.cat, .sophie {
-    padding-right: 2.7rem;
+.rufus img {
+    width: 20rem;
 }
-
+.marco img {
+    height: 19rem;
+    width: 15rem;
+}
 
 .bottomrow {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    padding-top: 8rem;
 }
 
-/*
-.toprow, .bottomrow {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center; 
-    gap: 1rem; 
-    text-align: center;
-    margin: 0 auto 1rem;
+.cat, .sophie {
+    padding-right: 2.7rem;
 }
 
- Consider a different font. */
+.cat img {
+    height: 19rem;
+    width: 19rem;
+}
+
+.sophie img {
+    height: 19rem;
+    width: 19rem;
+}
+
+.shay img {
+    height: 19rem;
+    width: 19rem;
+}
+
+
 .ourlookbook h2{
-    font-size: 2.5rem;
+    font-size: 5rem;
     text-align: center;
     
     color: #885A89;
 }
 
-/*change below when you have the stylists properly formatted, won't need nearly as much
-padding if any. */
 
 .ourlookbook {
     padding-top: 15rem;
@@ -287,10 +303,6 @@ padding if any. */
 .ourlookbook img{
     height: 17rem;
     width: 20%;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    display: flex;
     margin-bottom: 5%;
     margin-left: 8%;
     border: 4px solid #3d5341;
