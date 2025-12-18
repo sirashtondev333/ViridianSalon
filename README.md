@@ -8,6 +8,8 @@ add faggot picture to the male part
 look at different kinds of borders to figure out how to add pizzazz
 clean up icons section at the bottom and figure out which actually deserve credit
 experiment with making stylist titles oceanside typewriter and figure out exact colors (maybe white?)
+trim rufus
+figure out why you can't edit the hours and make larger, perhaps a different color, and lower down to where the technology crap is
 ------------------------------
 
 New 1. Worry about fonts last.

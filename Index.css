@@ -24,6 +24,27 @@
     src: url(/Fonts/Oceanside\ Typewriter.ttf);
 }
 
+@font-face {
+    font-family: "Albertus";
+    src: url(/Fonts/AlbertusMTStd.otf);
+}
+
+@font-face {
+    font-family: "Albertusitalic";
+    src: url(/Fonts/AlbertusMTStdItalic.otf);
+}
+
+@font-face {
+    font-family: "Albertuslight";
+    src: url(/Fonts/AlbertusMTStdLight.otf);
+}
+
+@font-face {
+    font-family: "Florentia";
+    src: url(/Fonts/Florentia-Regular-trial.ttf);
+}
+
+
 * {
     font-family: "Typewriter";
     box-sizing: border-box;
@@ -54,13 +75,14 @@ h2, h3, p, h4 {
 .logo {
     height: 7rem;
     width: 5.5rem;
+    padding-bottom: 1px;
 }
 
 .viridian{
     color: black;
-    font-family: 'Typewriter';
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-family: 'Florentia';
+    /* font-weight: bold; */
+    font-size: 1rem;
     text-shadow: 2rem #a790a5;
 }
 
@@ -176,7 +198,8 @@ ul  {
     color: black;
     font-size: large;
     margin-block: 0px;
-    float: right;
+    /* float: right; */
+    align-content: flex-end;
 }
 
 h1 {
@@ -319,7 +342,7 @@ h3 {
     width: 20%;
     margin-bottom: 5%;
     margin-left: 8%;
-    border: 4px solid #9dd8a0;
+    border: .8rem ridge #9dd8a0;
 }
 
 .circle {
