@@ -151,8 +151,8 @@ ul  {
 
 }
 
-.cheese {
-    color: #d1001c;
+.cheesy {
+    color: #fabf40
     font-family: 'Typewriter';
     font-size: 4.5rem;
     text-shadow: 3px 3px solid #ff1010;
@@ -165,49 +165,46 @@ ul  {
     border: 1px solid black;
     align-self: flex-end;
     text-shadow: 10px 10px solid;
-}    
-
-
-.discount-section {
-    background-color: rgba(0, 0, 0,);
-    color: #fabf40;
+    color: #d1001c;
     border: darkslategray;
     font-size: 1.5rem;
 }
 
 .discount-section p {
-    color:#fabf40;
+    color:#FFCAE9;
 }
 
 .discount-section h4 {
     font-family: "Oceanside typewriter";
-    color: #fabf40;
+    color: #FFCAE9;
 }
 
 .bookonlinebutton {
    display: inline-block;
    background-color: black; 
-    border: 1px solid #d1001c ;
+    border: 1px solid #FFCAE9 ;
     margin-top: 2rem;
     padding: 0 1rem;
 }
 
 .hours {
-    writing-mode: vertical-rl; 
-    text-orientation: mixed;
-    color: black;
+    /* writing-mode: vertical-rl;  */
+    /* text-orientation: mixed; */
+    color: #d1001c;
     font-size: large;
+    font-weight: 600;
     margin-block: 0px;
     /* float: right; */
-    align-content: flex-end;
+    /* align-content: flex-end; */
+    text-align: end;
 }
 
 h1 {
-    color: #885A89;
     text-align: center;
     font-weight: 300;
+    color: #fabf40;
     padding-bottom: 35px;
-    text-shadow: 1.25px 1.25px 5px black;
+    /* text-shadow: 1.25px 1.25px 5px black; */
 }
 
 /* Figure out how to move button lower. */
@@ -224,11 +221,6 @@ h1 {
     height: 3rem; */
     position: relative;
     bottom: 5.5rem;
-}
-
-.hours span{
-    color: black;
-    font-size: 6rem;
 }
 
 .sectiontwo {
@@ -287,7 +279,7 @@ h3 {
 }
 
 .rufus img {
-    width: 20rem;
+    width: 15rem;
 }
 .marco img {
     height: 19rem;
@@ -325,6 +317,9 @@ h3 {
     padding-bottom: .9rem;
 }
 
+.ourlookbook {
+    padding-top: 15rem;
+}
 
 .ourlookbook h2{
     font-size: 5rem;
@@ -332,17 +327,12 @@ h3 {
     color: #fabf40;
 }
 
-
-.ourlookbook {
-    padding-top: 15rem;
-}
-
 .ourlookbook img{
     height: 17rem;
     width: 20%;
     margin-bottom: 5%;
     margin-left: 8%;
-    border: .8rem ridge #9dd8a0;
+    /* border: .8rem ridge #9dd8a0; */
 }
 
 .circle {
@@ -363,6 +353,13 @@ h3 {
     width: 10rem; 
 } */
 
+.ourlookbook .pinkblue {
+ border: #a790a5;
+}
+
+.ourlookbook .lavender {
+border: #a790a5;
+}
 
 .iconlist {}
 /* ASHTON. LET'S ADD OPACITY TO RIGHT SIDE, AND THEN SEE IF YOU WANT TO DO A CAROUSEL WITH VARYING
@@ -396,3 +393,7 @@ Verdict: Might have a place if I want a dark purple but royal is too bright and 
 
 plum #71477F 
 Verdict: If I change my mind about the others it could be a good border.*/
+
+/* Potential new color, pastel petal, a type of pink: #FFCAE9
+Alternatively, Sapphire: #4059AD OR airforce blue: #4C86A8 Teal #087E8B Dark Magenta: #801A86 
+blush pop: #E2A3C7 lavender gray #9999C3 Stormy teal: #2C666E */

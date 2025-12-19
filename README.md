@@ -1,14 +1,15 @@
 README 
 
 AS OF 12/18:
+PUT GIANT FUCKING FADED SCISSORS BEHIND LOOKBOOK TO PIZZAZZ IT
 Figure out second font for logo and maybe a third for the header.
 Continue to use oceanside typewriter for emphasis at the very least in the discount box.
 make hero section h1 sage and the discount section red
-add faggot picture to the male part
+add faggot picture to the male part*
 look at different kinds of borders to figure out how to add pizzazz
 clean up icons section at the bottom and figure out which actually deserve credit
 experiment with making stylist titles oceanside typewriter and figure out exact colors (maybe white?)
-trim rufus
+trim rufus*
 figure out why you can't edit the hours and make larger, perhaps a different color, and lower down to where the technology crap is
 ------------------------------
 
