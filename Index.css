@@ -61,7 +61,16 @@ body {
 }
 
 ul {
-    font-size: .8em;
+    position: sticky;
+}
+
+ul > li {
+    font-size: 1.2rem;
+    position: sticky;
+}
+
+header {
+    position: sticky;
 }
 
 h2, h3, p, h4 {
@@ -103,7 +112,7 @@ ul  {
     font-weight: 600;
     font-size: .9rem;
     background-color: whitesmoke;
-    color: #9dd8a0;
+    color: #7b9d4a;
     list-style: none;
     display: flex;
 } 
@@ -152,7 +161,7 @@ ul  {
 }
 
 .cheesy {
-    color: #fabf40
+    color: #c27597;
     font-family: 'Typewriter';
     font-size: 4.5rem;
     text-shadow: 3px 3px solid #ff1010;
@@ -239,9 +248,17 @@ h1 {
 
  .minisection h2, p {
     margin-bottom: 1rem;
-    color: black;
-    
+    color: black;  
 } 
+
+.womanhair {
+    height: 6rem;
+}
+
+.lift {
+    padding-bottom: 3rem;
+    }
+
 /* 
 .notwhite button {
     background-color: black;
@@ -303,6 +320,11 @@ h3 {
     width: 16rem;
     padding-top: 2rem;
     padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+.jobtitle {
+    font-family: "Oceanside typewriter";
+    padding-top: -1rem;
 }
 
 .sophie img {
@@ -361,7 +383,10 @@ h3 {
 border: #a790a5;
 }
 
-.iconlist {}
+.iconlist {
+    font-size: .5rem;
+    text-align: center;
+}
 /* ASHTON. LET'S ADD OPACITY TO RIGHT SIDE, AND THEN SEE IF YOU WANT TO DO A CAROUSEL WITH VARYING
 SIZES THAT TAKE UP THE WHOLE AREA LIKE THE BIG PIC, AND THE OTHERS BEING HALFISES. NOT EASY BUT LIKE IT. 
 ADD A FOOTER MY LAD.*/

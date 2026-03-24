@@ -1,6 +1,20 @@
 README 
 
+1. add plantsalonbackground1. as a carousel image
+2. Looking for inspiration? Look no further than our lookbook at bottom
+3. Add social media (facebook twitter instagram youtube) x
+4. Look at CSS moving elements you could add, that you can use with JS later. Maybe look at
+Sam's stuff for reference.
+5. Make social media icons pop out in some way and change color
+6. Add dropdown list if applicable when you hover over along with perhaps a subtle color change (regular is cool too)
+7. mention shears, razors, and clippers varied tools to get optimal look/results, mention health/integrity of hair while fulfilling your vision
+8. Add book now button
+9. Make top bar font larger
+10. when you've got all the other aesthetic stuff ironed out THEN look for a second font that works with oceanside typewriter, and one to use for the logo instead
+11. Figure out why Rufus Jones and Marco Rossi aren't bolded like the other names. Maybe font size, the numbered one?
+
 AS OF 12/18:
+fix the latin
 PUT GIANT FUCKING FADED SCISSORS BEHIND LOOKBOOK TO PIZZAZZ IT
 Figure out second font for logo and maybe a third for the header.
 Continue to use oceanside typewriter for emphasis at the very least in the discount box.
