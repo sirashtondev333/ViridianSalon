@@ -60,15 +60,6 @@ body {
     background: linear-gradient(whitesmoke, whitesmoke, black, whitesmoke)
 }
 
-ul {
-    position: sticky;
-}
-
-ul > li {
-    font-size: 1.2rem;
-    position: sticky;
-}
-
 header {
     position: sticky;
 }
@@ -202,10 +193,11 @@ ul  {
     color: #d1001c;
     font-size: large;
     font-weight: 600;
-    margin-block: 0px;
+    text-align: center;
+    /* margin-block: 0px; */
     /* float: right; */
     /* align-content: flex-end; */
-    text-align: end;
+    /* text-align: end; */
 }
 
 h1 {
@@ -287,7 +279,7 @@ h3 {
 
 .rufus, .marco, .cat, .sophie, .shay p {
     text-align: center;
-    color: #9dd8a0;
+    color: #cd262e;
 }
 
 .rufus {
@@ -349,6 +341,10 @@ h3 {
     color: #fabf40;
 }
 
+.seemorediv {
+    text-align: center;
+}
+
 .ourlookbook img{
     height: 17rem;
     width: 20%;
@@ -383,10 +379,20 @@ h3 {
 border: #a790a5;
 }
 
+.socialmedia {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
 .iconlist {
     font-size: .5rem;
     text-align: center;
 }
+
 /* ASHTON. LET'S ADD OPACITY TO RIGHT SIDE, AND THEN SEE IF YOU WANT TO DO A CAROUSEL WITH VARYING
 SIZES THAT TAKE UP THE WHOLE AREA LIKE THE BIG PIC, AND THE OTHERS BEING HALFISES. NOT EASY BUT LIKE IT. 
 ADD A FOOTER MY LAD.*/
