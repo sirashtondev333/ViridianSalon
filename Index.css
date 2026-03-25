@@ -44,6 +44,10 @@
     src: url(/Fonts/Florentia-Regular-trial.ttf);
 }
 
+@font-face {
+    font-family: "Priestacy";
+    src: url(/Fonts/priestacy.regular.otf);
+}
 
 * {
     font-family: "Typewriter";
@@ -80,7 +84,7 @@ h2, h3, p, h4 {
 
 .viridian{
     color: black;
-    font-family: 'Florentia';
+    font-family: 'Priestacy';
     /* font-weight: bold; */
     font-size: 1rem;
     text-shadow: 2rem #a790a5;
@@ -152,9 +156,10 @@ ul  {
 }
 
 .cheesy {
-    color: #c27597;
+    color: black; 
     font-family: 'Typewriter';
     font-size: 4.5rem;
+    font-weight: 600;
     text-shadow: 3px 3px solid #ff1010;
 }
 
@@ -277,9 +282,10 @@ h3 {
     justify-content: center;
 }
 
-.rufus, .marco, .cat, .sophie, .shay p {
+.rufus p, .marco p, .cat p, .sophie p, .shay p {
     text-align: center;
-    color: #cd262e;
+    /* color: #cd262e; */
+    color: #d1001c;
 }
 
 .rufus {

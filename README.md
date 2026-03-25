@@ -12,6 +12,8 @@ Sam's stuff for reference.
 9. Make top bar font larger
 10. when you've got all the other aesthetic stuff ironed out THEN look for a second font that works with oceanside typewriter, and one to use for the logo instead
 11. Figure out why Rufus Jones and Marco Rossi aren't bolded like the other names. Maybe font size, the numbered one?
+12. potentially make the three things listed below the main section like vertical, like stairs? If I don't apply it there consider another section on the same page or another page on the same site.
+13. Consider killing the logo for something else, and keeping the font Priestacy. First experiment with the C-word one and see if it flatters the logo and then decide.
 
 AS OF 12/18:
 fix the latin
