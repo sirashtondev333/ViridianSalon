@@ -193,16 +193,11 @@ ul  {
 }
 
 .hours {
-    /* writing-mode: vertical-rl;  */
-    /* text-orientation: mixed; */
     color: #d1001c;
-    font-size: large;
+    font-size: 2.5em;
     font-weight: 600;
+    display: block;
     text-align: center;
-    /* margin-block: 0px; */
-    /* float: right; */
-    /* align-content: flex-end; */
-    /* text-align: end; */
 }
 
 h1 {
@@ -345,6 +340,7 @@ h3 {
     font-size: 5rem;
     text-align: center;
     color: #fabf40;
+    font-family: 'Priestacy';
 }
 
 .seemorediv {
@@ -354,8 +350,8 @@ h3 {
 .ourlookbook img{
     height: 17rem;
     width: 20%;
-    margin-bottom: 5%;
-    margin-left: 8%;
+    /* margin-bottom: 5%;
+    margin-left: 8%; */
     /* border: .8rem ridge #9dd8a0; */
 }
 

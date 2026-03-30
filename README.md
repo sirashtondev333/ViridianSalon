@@ -9,11 +9,14 @@ Sam's stuff for reference.
 6. Add dropdown list if applicable when you hover over along with perhaps a subtle color change (regular is cool too)
 7. mention shears, razors, and clippers varied tools to get optimal look/results, mention health/integrity of hair while fulfilling your vision
 8. Add book now button
-9. Make top bar font larger
+9. Make top bar font larger x
 10. when you've got all the other aesthetic stuff ironed out THEN look for a second font that works with oceanside typewriter, and one to use for the logo instead
 11. Figure out why Rufus Jones and Marco Rossi aren't bolded like the other names. Maybe font size, the numbered one?
 12. potentially make the three things listed below the main section like vertical, like stairs? If I don't apply it there consider another section on the same page or another page on the same site.
 13. Consider killing the logo for something else, and keeping the font Priestacy. First experiment with the C-word one and see if it flatters the logo and then decide.
+14. In light of potential logo change, consider killing the aesthetic and making the website overall seem more chic.
+15. Maybe instead of making the elements horizontal about what makes the company awesome, make them drop down like a set of stairs?
+16. Make an alt version with plants when you finish this one because it's taking you too long.
 
 AS OF 12/18:
 fix the latin
