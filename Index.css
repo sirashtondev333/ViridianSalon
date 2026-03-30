@@ -192,14 +192,6 @@ ul  {
     padding: 0 1rem;
 }
 
-.hours {
-    color: #d1001c;
-    font-size: 2.5em;
-    font-weight: 600;
-    display: block;
-    text-align: center;
-}
-
 h1 {
     text-align: center;
     font-weight: 300;
@@ -365,13 +357,12 @@ h3 {
     font-size: .8rem;
 }
 
-
- /*.shay, .sophie, .cat, .marco, .rufus {
+    /* .shay, .sophie, .cat, .marco, .rufus {
     display: flex;
     justify-content: center;
     flex-direction: column; 
     width: 10rem; 
-} */
+    } */
 
 .ourlookbook .pinkblue {
  border: #a790a5;
@@ -379,6 +370,23 @@ h3 {
 
 .ourlookbook .lavender {
 border: #a790a5;
+}
+
+.columnone {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 3em;
+}
+
+.hours {
+    color: #d1001c;
+    font-size: 2.3em;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding-top: 4.5em;
 }
 
 .socialmedia {

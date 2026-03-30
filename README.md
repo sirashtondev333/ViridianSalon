@@ -1,4 +1,4 @@
-README 
+-README 
 
 1. add plantsalonbackground1. as a carousel image
 2. Looking for inspiration? Look no further than our lookbook at bottom
@@ -17,6 +17,9 @@ Sam's stuff for reference.
 14. In light of potential logo change, consider killing the aesthetic and making the website overall seem more chic.
 15. Maybe instead of making the elements horizontal about what makes the company awesome, make them drop down like a set of stairs?
 16. Make an alt version with plants when you finish this one because it's taking you too long.
+17. Do what you need to do to make website design chic, to give them an idea of how you can handle a bondage site.
+18. Look for new icons for the three thingie section or find a new way to configure that so it's sleek and less cutesy.
+19. Change out correct link for Lookbook in the thingy where I made the word Lookbook a link.
 
 AS OF 12/18:
 fix the latin
