@@ -76,10 +76,9 @@ h2, h3, p, h4 {
     align-content: center;
 }
 
-.logo {
-    height: 7rem;
+/* .logo {
+    height: 6rem;
     width: 5.5rem;
-    padding-bottom: 1px;
 }
 
 .viridian{
@@ -88,7 +87,11 @@ h2, h3, p, h4 {
     /* font-weight: bold; */
     font-size: 1rem;
     text-shadow: 2rem #a790a5;
-}
+    position: absolute;
+    display: block;
+    padding-bottom: 3em;
+    padding-left: 1em;
+} */
 
 .placeholder {
  text-align: end;
@@ -112,6 +115,21 @@ ul  {
     display: flex;
 } 
 
+.logo {
+    height: 6rem;
+    width: 5.5rem;
+}
+
+.viridian{
+    color: black;
+    font-family: 'Priestacy';
+    font-size: 1rem;
+    text-shadow: 2rem #a790a5;
+    position: absolute;
+    display: block;
+    padding-bottom: 3em;
+    padding-left: 1em;
+}
 .theicons {
     display: flex;
     gap: 1rem;
@@ -269,7 +287,7 @@ h3 {
     justify-content: center;
 }
 
-.rufus p, .marco p, .cat p, .sophie p, .shay p {
+.rufus p, .marco p, .cristi p, .sophie p, .shay p {
     text-align: center;
     /* color: #cd262e; */
     color: #d1001c;
@@ -296,11 +314,11 @@ h3 {
     padding-top: 7rem;
 }
 
-.cat, .sophie {
+.cristi, .sophie {
     padding-right: 2.7rem;
 }
 
-.cat img {
+.cristi img {
     height: 18rem;
     width: 16rem;
     padding-top: 2rem;
@@ -380,13 +398,18 @@ border: #a790a5;
     padding-top: 3em;
 }
 
+.seemore {
+    display: block;
+    padding-top: 3em;
+}
+
 .hours {
     color: #d1001c;
     font-size: 2.3em;
     font-weight: 600;
     display: block;
     text-align: center;
-    padding-top: 4.5em;
+    padding-top: 3.5em;
 }
 
 .socialmedia {
