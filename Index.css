@@ -185,7 +185,8 @@ ul  {
     background-color: rgba(0, 0, 0, .5);
     padding: 1rem;
     max-width: 33%; 
-    border: 1px solid black;
+    border: 5px solid black;
+    border-radius: 1em;
     align-self: flex-end;
     text-shadow: 10px 10px solid;
     color: #d1001c;
@@ -195,6 +196,7 @@ ul  {
 
 .discount-section p {
     color:#FFCAE9;
+    padding-top: .25em;
 }
 
 .discount-section h4 {
@@ -206,8 +208,9 @@ ul  {
    display: inline-block;
    background-color: black; 
     border: 1px solid #FFCAE9 ;
+    border-radius: 4px;
     margin-top: 2rem;
-    padding: 0 1rem;
+    padding: 0 .5em;
 }
 
 h1 {
@@ -306,41 +309,40 @@ h3 {
     width: 15rem;
 }
 
-.bottomrow {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
+ .bottomrow {
     justify-content: center;
     padding-top: 7rem;
-}
+    display: flex;
+} 
 
 .cristi, .sophie {
     padding-right: 2.7rem;
 }
 
-.cristi img {
+/* .cristi img {
     height: 18rem;
     width: 16rem;
     padding-top: 2rem;
     padding-left: 2rem;
     padding-bottom: 2rem;
-}
+} */
+
 .jobtitle {
     font-family: "Oceanside typewriter";
     padding-top: -1rem;
 }
 
-.sophie img {
-    height: 18rem;
+.rufus img, .marco img, .sophie img, .shay img, .cristi img {
+    height: 19rem;
     width: 16rem;
     padding-bottom: 1rem;
 }
 
-.shay img {
+/* .shay img {
     height: 18rem;
     width: 17rem;
     padding-bottom: .9rem;
-}
+} */
 
 .ourlookbook {
     padding-top: 15rem;

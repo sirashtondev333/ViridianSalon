@@ -1,7 +1,7 @@
 -README 
 
 1. add plantsalonbackground1. as a carousel image
-2. Looking for inspiration? Look no further than our lookbook at bottom
+2. Looking for inspiration? Look no further than our lookbook at bottom X
 3. Add social media (facebook twitter instagram youtube) x
 4. Look at CSS moving elements you could add, that you can use with JS later. Maybe look at
 Sam's stuff for reference.
@@ -20,6 +20,7 @@ Sam's stuff for reference.
 17. Do what you need to do to make website design chic, to give them an idea of how you can handle a bondage site.
 18. Look for new icons for the three thingie section or find a new way to configure that so it's sleek and less cutesy.
 19. Change out correct link for Lookbook in the thingy where I made the word Lookbook a link.
+20. Create transparent circles on each end of the salon lookbook ends and add an arrow icon in a visually opposing/striking color on them.
 
 AS OF 12/18:
 fix the latin
