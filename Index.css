@@ -197,6 +197,7 @@ ul  {
 .discount-section p {
     color:#FFCAE9;
     padding-top: .25em;
+    padding
 }
 
 .discount-section h4 {
@@ -207,7 +208,7 @@ ul  {
 .bookonlinebutton {
    display: inline-block;
    background-color: black; 
-    border: 1px solid #FFCAE9 ;
+    border: 1px solid #FFCAE9;
     border-radius: 4px;
     margin-top: 2rem;
     padding: 0 .5em;
@@ -419,6 +420,7 @@ border: #a790a5;
     width: 32px;
     display: flex;
     flex-direction: row;
+    border: solid 1px #d1001c;
 
 
 }
