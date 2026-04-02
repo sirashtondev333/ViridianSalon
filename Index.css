@@ -79,19 +79,20 @@ h2, h3, p, h4 {
 /* .logo {
     height: 6rem;
     width: 5.5rem;
-}
+} */
 
 .viridian{
-    color: black;
+ /*   color: black;
     font-family: 'Priestacy';
-    /* font-weight: bold; */
+    font-weight: bold; */
     font-size: 1rem;
     text-shadow: 2rem #a790a5;
     position: absolute;
     display: block;
-    padding-bottom: 3em;
+    padding-bottom: 6em;
     padding-left: 1em;
-} */
+    z-index: 3;
+} 
 
 .placeholder {
  text-align: end;
@@ -130,10 +131,11 @@ ul  {
     padding-bottom: 3em;
     padding-left: 1em;
 }
-.theicons {
+
+/* .theicons {
     display: flex;
     gap: 1rem;
-}
+} */
 
  input {
   font-size: .9rem; 
@@ -156,7 +158,6 @@ ul  {
 .notwhite * {
     float: left;
     width: 50%;
-
 }
 
 .notwhite::after {
@@ -296,8 +297,7 @@ h3 {
 } 
 
 .rufus {
-    padding-right: 3rem;
-    
+    padding-right: 3rem;  
 }
 
 .rufus img {
