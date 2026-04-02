@@ -57,11 +57,11 @@
 }
 
 header {
-    color: white;
+    color: black;
 }
 
 body {
-    background: linear-gradient(whitesmoke, whitesmoke, black, whitesmoke)
+    background: linear-gradient(whitesmoke, black, whitesmoke, whitesmoke, black)
 }
 
 header {
@@ -69,7 +69,7 @@ header {
 }
 
 h2, h3, p, h4 {
-    color: black;
+    color: whitesmoke;
 }
 
 .logoholder {
@@ -85,14 +85,17 @@ h2, h3, p, h4 {
  /*   color: black;
     font-family: 'Priestacy';
     font-weight: bold; */
+    color: black;
     font-size: 1rem;
-    text-shadow: 2rem #a790a5;
+    font-color: whitesmoke;
     position: absolute;
     display: block;
     padding-bottom: 6em;
     padding-left: 1em;
     z-index: 3;
 } 
+
+
 
 .placeholder {
  text-align: end;
@@ -110,7 +113,7 @@ ul  {
     margin-bottom: 1.5rem;
     font-weight: 600;
     font-size: .9rem;
-    background-color: whitesmoke;
+    background-color: black;
     color: #7b9d4a;
     list-style: none;
     display: flex;
@@ -255,7 +258,7 @@ h1 {
 
  .minisection h2, p {
     margin-bottom: 1rem;
-    color: black;  
+    color: whitesmoke;  
 } 
 
 .womanhair {
@@ -405,7 +408,7 @@ border: #a790a5;
 }
 
 .hours {
-    color: #d1001c;
+    color:  #d1001c;
     font-size: 2.3em;
     font-weight: 600;
     display: block;
