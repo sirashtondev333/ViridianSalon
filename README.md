@@ -21,6 +21,8 @@ Sam's stuff for reference.
 18. Look for new icons for the three thingie section or find a new way to configure that so it's sleek and less cutesy.
 19. Change out correct link for Lookbook in the thingy where I made the word Lookbook a link.
 20. Create transparent circles on each end of the salon lookbook ends and add an arrow icon in a visually opposing/striking color on them.
+21. Don't be afraid to replace Rufus to find someone you can size the image down smaller for. Pull the trigger Piglet. 
+22. Make a popup if you have time for vooking appointment.
 
 
 ASK VISH ABOUT:

@@ -1,0 +1,23 @@
+/* Figure out fonts later, and don't worry about colors until closer to
+the end. Worry more about layout.
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background: linear-gradient(black,whitesmoke);
+}
+
+h1 {
+    font-color: whitesmoke;
+}
+
+button {
+    color: whitesmoke;
+    font-color: black;
+    display: block;    
+}
