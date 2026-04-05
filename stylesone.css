@@ -1,5 +1,7 @@
 /* Figure out fonts later, and don't worry about colors until closer to
 the end. Worry more about layout.
+
+Also, this is where we got the layout for the HTML: https://www.geeksforgeeks.org/javascript/create-a-contact-form-using-html-css-javascript/
 */
 
 * {
@@ -12,7 +14,7 @@ body {
     background: linear-gradient(black,whitesmoke);
 }
 
-h1 {
+h1, p {
     font-color: whitesmoke;
 }
 
