@@ -15,7 +15,13 @@ body {
 }
 
 h1, p {
-    font-color: whitesmoke;
+    color: whitesmoke;
+    padding-bottom: 1.5em;
+    text-align: center;
+}
+
+.formgroup {
+padding-bottom: 1.5em;
 }
 
 button {
