@@ -1,0 +1,481 @@
+
+@font-face {
+    font-family: "Typewriter";
+    src: url(/Fonts/JMH\ Typewriter.otf);
+}
+
+@font-face {
+    font-family: "Typewriter bold";
+    src: url(/Fonts/JMH\ Typewriter-Bold.otf);
+}
+
+@font-face {
+    font-family: "Typewriter thin";
+    src: url(/Fonts/JMH\ Typewriter-Thin.otf);
+}
+
+@font-face {
+    font-family: "Albertus";
+    src: url(/Fonts/AlbertusMTStd.otf);
+}
+
+@font-face {
+    font-family: "Albertusitalic";
+    src: url(/Fonts/AlbertusMTStdItalic.otf);
+}
+
+@font-face {
+    font-family: "Albertuslight";
+    src: url(/Fonts/AlbertusMTStdLight.otf);
+}
+
+@font-face {
+    font-family: "Florentia";
+    src: url(/Fonts/Florentia-Regular-trial.ttf);
+}
+
+@font-face {
+    font-family: "florentialight";
+    src: url(/Fonts/Florentia-Light-trial.ttf);
+}
+
+@font-face {
+    font-family: "Priestacy";
+    src: url(/Fonts/priestacy.regular.otf);
+}
+
+* {
+    font-family: "Typewriter";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    color: black;
+}
+
+body {
+    background: linear-gradient(whitesmoke, black, whitesmoke, whitesmoke, black)
+}
+
+header {
+    position: sticky;
+}
+
+h2, h3, p, h4 {
+    color: whitesmoke;
+}
+
+.logoholder {
+    align-content: center;
+}
+
+/* .logo {
+    height: 6rem;
+    width: 5.5rem;
+} */
+
+#appointment_name {
+    color: slategrey;
+}
+
+.viridian{
+ /*   color: black;
+    font-family: 'Priestacy';
+    font-weight: bold; */
+    /* color: black; */
+    font-size: 1rem;
+    font-color: whitesmoke;
+    position: absolute;
+    display: block;
+    padding-bottom: 6em;
+    padding-left: 1em;
+    z-index: 3;
+} 
+
+
+
+.placeholder {
+ text-align: end;
+}
+
+/* header::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+.favoritehaircut {
+    font-size: 6.5rem;
+    font-family: "florentia";
+}
+
+.bookonlinebutton {
+   display: inline-block;
+   background-color: black; 
+    border: 1px solid #FFCAE9;
+    border-radius: 4px;
+    margin-top: 2rem;
+    padding: 0 .5em;
+}
+
+ul  { 
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: .9rem;
+    background-color: black;
+    color: #7b9d4a;
+    list-style: none;
+    display: flex;
+} 
+
+.logo {
+    height: 6rem;
+    width: 5.5rem;
+}
+
+.viridian{
+    color: black;
+    font-family: 'Priestacy';
+    font-size: 1rem;
+    text-shadow: 2rem #a790a5;
+    position: absolute;
+    display: block;
+    padding-bottom: 3em;
+    padding-left: 1em;
+}
+
+/* .theicons {
+    display: flex;
+    gap: 1rem;
+} */
+
+ input {
+  font-size: .9rem; 
+  padding-left: .25rem;
+} 
+
+.mainsec {
+    height: 100vh;
+    background-image: url(/Images/salonbackground6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid black 1px;
+}
+
+.arrow {
+        text-align: right;
+        margin-left: 70%;
+    }
+/*
+.notwhite * {
+    float: left;
+    width: 50%;
+}
+
+.notwhite::after {
+    content: "";
+    display: block;
+    clear: both;
+}  */
+
+.picture-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+
+}
+
+.cheesy {
+    color: black; 
+    font-family: 'Typewriter';
+    font-size: 4.5rem;
+    font-weight: 600;
+    text-shadow: 3px 3px solid #ff1010;
+}
+
+.discount-section {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1rem;
+    max-width: 33%; 
+    border: 5px solid black;
+    border-radius: 1em;
+    align-self: flex-end;
+    text-shadow: 10px 10px solid;
+    color: #d1001c;
+    border: darkslategray;
+    font-size: 1.5rem;
+}
+
+.discount-section p {
+    color:#FFCAE9;
+    padding-top: .25em;
+    padding
+}
+
+.discount-section h4 {
+    font-family: "Oceanside typewriter";
+    color: #FFCAE9;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    color: #fabf40;
+    padding-bottom: 35px;
+    /* text-shadow: 1.25px 1.25px 5px black; */
+}
+
+/* Figure out how to move button lower. */
+.ourServices a{
+    background-color: rgb(17, 5, 5);
+    color: #a790a5;
+    border: solid 1px #3d5341;
+    font-size: .9rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1.3rem;
+    /* line-height: 3rem; */
+    /* width: 140px;
+    height: 3rem; */
+    position: relative;
+    bottom: 5.5rem;
+}
+
+.sectiontwo {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 70%;
+    margin: 10rem auto;
+    /* position: relative; */
+}
+
+.minisection {
+    width: 100%;
+     text-align: center;
+}
+
+ .minisection h2, p {
+    margin-bottom: 1rem;
+    color: whitesmoke;  
+} 
+
+.womanhair {
+    height: 6rem;
+}
+
+.lift {
+    padding-bottom: 3rem;
+    }
+
+/* 
+.notwhite button {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    width: 125px;
+    height: 50px;
+} */
+
+
+/* Consider making the below puce or rose quartz, one of the pinker or purpler colors in the
+palette and then make the button below beige? */
+
+h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem; 
+}
+
+.rufus p, .marco p, .cristi p, .sophie p, .shay p {
+    text-align: center;
+    color: #d1001c;
+}
+
+    .toprow {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+} 
+
+.rufus {
+    padding-right: 3rem;  
+}
+
+.rufus img {
+    width: 15rem;
+}
+.marco img {
+    height: 19rem;
+    width: 15rem;
+}
+
+ .bottomrow {
+    justify-content: center;
+    padding-top: 7rem;
+    display: flex;
+} 
+
+.cristi, .sophie {
+    padding-right: 2.7rem;
+}
+
+/* .cristi img {
+    height: 18rem;
+    width: 16rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+} */
+
+.jobtitle {
+    font-family: "Oceanside typewriter";
+    padding-top: -1rem;
+}
+
+.rufus img, .marco img, .sophie img, .shay img, .cristi img {
+    height: 19rem;
+    width: 16rem;
+    padding-bottom: 1rem;
+}
+
+/* .shay img {
+    height: 18rem;
+    width: 17rem;
+    padding-bottom: .9rem;
+} */
+
+.ourlookbook {
+    padding-top: 15rem;
+}
+
+.ourlookbook h2{
+    font-size: 5rem;
+    text-align: center;
+    color: black;
+    font-family: 'Priestacy';
+}
+
+.seemorediv {
+    text-align: center;
+}
+
+.ourlookbook img{
+    height: 17rem;
+    width: 20%;
+    /* margin-bottom: 5%;
+    margin-left: 8%; */
+    /* border: .8rem ridge #9dd8a0; */
+}
+
+/* .brunette {
+    height: 20rem;
+} */
+
+.circle {
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 10rem;
+}
+
+.circle p {
+    font-size: .8rem;
+}
+
+    /* .shay, .sophie, .cat, .marco, .rufus {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    width: 10rem; 
+    } */
+
+.ourlookbook .pinkblue {
+ border: #a790a5;
+}
+
+.ourlookbook .lavender {
+border: #a790a5;
+}
+
+.columnone {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 3em;
+    border: 5x red solid;
+}
+
+.seemore {
+    display: block;
+    padding-top: 3em;
+}
+
+.hours {
+    color:  #d1001c;
+    font-size: 2.3em;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding-top: 3.5em;
+}
+
+.socialmedia {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #d1001c;
+
+
+}
+
+.iconlist {
+    font-size: .5rem;
+    text-align: center;
+}
+
+.formemail {
+    color: gray;
+}
+
+/* ASHTON. LET'S ADD OPACITY TO RIGHT SIDE, AND THEN SEE IF YOU WANT TO DO A CAROUSEL WITH VARYING
+SIZES THAT TAKE UP THE WHOLE AREA LIKE THE BIG PIC, AND THE OTHERS BEING HALFISES. NOT EASY BUT LIKE IT. 
+ADD A FOOTER MY LAD.*/
+
+/* Pomp and power: #885A89
+Verdict: Like it! Potential new color.
+
+tekehlet: #592E83
+Verdict: nah
+
+#62466B
+verdict: a bit muted but has potential. could work well as a third purple with the gray-purple
+and the first one on this list.
+
+veronica #A734CD
+Verdict: Unlikely.
+
+purpureus #8F47A8
+Verdict: Better than the last one but not as good. They would go well together.
+
+amethyst #AA6BBF
+Verdict: looks too much like last one, same thoughts and feelings tbh.
+
+lavender #CA7DE4
+Verdict: eh. Probably not.
+
+dark purple #361D3F
+Verdict: Might have a place if I want a dark purple but royal is too bright and the others don't fit?
+
+plum #71477F 
+Verdict: If I change my mind about the others it could be a good border.*/
+
+/* Potential new color, pastel petal, a type of pink: #FFCAE9
+Alternatively, Sapphire: #4059AD OR airforce blue: #4C86A8 Teal #087E8B Dark Magenta: #801A86 
+blush pop: #E2A3C7 lavender gray #9999C3 Stormy teal: #2C666E */
