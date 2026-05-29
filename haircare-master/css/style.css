@@ -34,6 +34,21 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
+  @font-face {
+    font-family: "Florentia";
+    src: url(/Fonts/Florentia-Regular-trial.ttf);
+}
+
+@font-face {
+    font-family: "florentialight";
+    src: url(/Fonts/Florentia-Light-trial.ttf);
+}
+
+#appointment_name {
+    color: slategrey;
+}
+
+
 *,
 *::before,
 *::after {
@@ -48,6 +63,17 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
+
+  .viridian{
+    color: black;
+    font-family: 'Priestacy';
+    font-size: 1rem;
+    text-shadow: 2rem #a790a5;
+    position: absolute;
+    display: block;
+    padding-bottom: 3em;
+    padding-left: 1em;
+}
 
 body {
   margin: 0;
@@ -297,8 +323,8 @@ summary {
 template {
   display: none; }
 
-[hidden] {
-  display: none !important; }
+/* [hidden] {
+  display: none !important; } */
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -366,7 +392,12 @@ mark,
 
 .list-unstyled {
   padding-left: 0;
-  list-style: none; }
+}
+
+.endlistfaq {
+  list-style-type: none;
+}
+/* applesauce note to self vish list: ask how to remove bullet points. */
 
 .list-inline {
   padding-left: 0;
@@ -3458,7 +3489,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
@@ -9864,3 +9895,41 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+  /* Voila, the end. Applesauce. */
+  
+  .lavenderhaircut {
+    height: 24rem;
+  }
+  
+  .shortgirlcut {
+  height: 22rem;
+}
+
+.indianmancut {
+  height: 25rem;
+  width: 22rem;
+}
+
+.hairmakeup {
+  font-size: 2.4rem;
+}
+
+.hairmakeuppricing {
+  font-size: 1rem;
+}
+
+.callus {
+  font-size: 1.5rem;
+}
+/* Note to self applesauce: didn't work, need to find out why. */
+
+.footer > a, p {
+  font-size: .9rem;
+}
+
+.section {
+  height: 100%;
+  width: 100%;
+}

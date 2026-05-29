@@ -1,10 +1,5 @@
 
 @font-face {
-    font-family: "Velvetique";
-    src:url(/Fonts/Velvetique.otf);
-}
-
-@font-face {
     font-family: "Typewriter";
     src: url(/Fonts/JMH\ Typewriter.otf);
 }
@@ -17,11 +12,6 @@
 @font-face {
     font-family: "Typewriter thin";
     src: url(/Fonts/JMH\ Typewriter-Thin.otf);
-}
-
-@font-face {
-    font-family: "Oceanside typewriter";
-    src: url(/Fonts/Oceanside\ Typewriter.ttf);
 }
 
 @font-face {
@@ -42,6 +32,11 @@
 @font-face {
     font-family: "Florentia";
     src: url(/Fonts/Florentia-Regular-trial.ttf);
+}
+
+@font-face {
+    font-family: "florentialight";
+    src: url(/Fonts/Florentia-Light-trial.ttf);
 }
 
 @font-face {
@@ -81,6 +76,10 @@ h2, h3, p, h4 {
     width: 5.5rem;
 } */
 
+#appointment_name {
+    color: slategrey;
+}
+
 .viridian{
  /*   color: black;
     font-family: 'Priestacy';
@@ -107,6 +106,10 @@ h2, h3, p, h4 {
     clear: both;
 } */
 
+.favoritehaircut {
+    font-size: 6.5rem;
+    font-family: "florentia";
+}
 
 .bookonlinebutton {
    display: inline-block;
@@ -370,6 +373,10 @@ h3 {
     /* border: .8rem ridge #9dd8a0; */
 }
 
+/* .brunette {
+    height: 20rem;
+} */
+
 .circle {
     /* display: flex;
     justify-content: center; */
@@ -431,6 +438,10 @@ border: #a790a5;
 .iconlist {
     font-size: .5rem;
     text-align: center;
+}
+
+.formemail {
+    color: gray;
 }
 
 /* ASHTON. LET'S ADD OPACITY TO RIGHT SIDE, AND THEN SEE IF YOU WANT TO DO A CAROUSEL WITH VARYING
