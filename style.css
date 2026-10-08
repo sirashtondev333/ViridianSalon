@@ -9222,7 +9222,13 @@ textarea.form-control {
   font-size: 16px;
   background: #333333;
   padding: 7em 0;
-  z-index: 0; }
+  z-index: 0;
+  /* bottom of the stacked block: round only the outer bottom corners so the
+     flat seam where the light and dark sections meet stays clean */
+  border-radius: 0 0 32px 32px; }
+  @media (max-width: 767.98px) {
+    .ftco-footer {
+      border-radius: 0 0 20px 20px; } }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
@@ -9393,7 +9399,14 @@ textarea.form-control {
 
 .testimony-section {
   position: relative;
-  background: #bf925b; }
+  background: #bf925b;
+  /* top of the stacked reviews + footer block: round only the outer top corners.
+     overflow hidden keeps the photo/content from poking out past the curve. */
+  border-radius: 32px 32px 0 0;
+  overflow: hidden; }
+  @media (max-width: 767.98px) {
+    .testimony-section {
+      border-radius: 20px 20px 0 0; } }
   .testimony-section .testimony-img {
     display: block;
     width: 100%;
