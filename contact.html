@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Haircare - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Contact | Viridian Salon</title>
+    <meta name="description" content="Visit, call or book an appointment at Viridian Salon. Hours, address and contact details.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -26,6 +27,28 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+  
+    <style>
+      /* Contact page */
+      .contact-card{background:#333;color:#fff;border:1px solid rgba(191,146,91,.35);border-radius:18px;box-shadow:0 10px 28px rgba(0,0,0,.18);padding:2.25rem 2rem;height:100%}
+      .contact-card h2{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;font-weight:700;letter-spacing:.04em;font-size:1.6rem;color:#fff;margin-bottom:1.5rem}
+      .contact-list{list-style:none;margin:0 0 1.75rem;padding:0}
+      .contact-list li{display:flex;align-items:flex-start;gap:14px;margin-bottom:1rem;line-height:1.5}
+      .contact-list .icon{color:#bf925b;font-size:1.25rem;width:1.5rem;flex-shrink:0;margin-top:2px}
+      .contact-list a{color:#fff}
+      .contact-list a:hover{color:#e3c08d;text-decoration:none}
+      .contact-card h3{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;font-weight:600;letter-spacing:.06em;font-size:1.2rem;color:#e3c08d;border-top:1px solid rgba(255,255,255,.15);padding-top:1.5rem;margin-bottom:1rem}
+      .hours{list-style:none;margin:0;padding:0}
+      .hours li{display:flex;justify-content:space-between;gap:1rem;padding:.4rem 0;border-bottom:1px dashed rgba(255,255,255,.15)}
+      .hours li:last-child{border-bottom:0}
+      .hours .closed{color:#e3c08d}
+      .contact-map{border-radius:18px;overflow:hidden;border:1px solid rgba(191,146,91,.35);box-shadow:0 10px 28px rgba(0,0,0,.18);height:100%;min-height:380px;background:#ebe8de}
+      .contact-map iframe{width:100%;height:100%;min-height:380px;border:0;display:block}
+      .contact-book{text-align:center;margin-top:3rem}
+      .contact-book p.lead-in{font-family:"florentialight",Georgia,serif;font-size:1.3rem;color:#3d3d3d;margin-bottom:1.25rem}
+      .map-note{font-size:.8rem;color:#777;text-align:center;margin-top:.6rem}
+      @media (max-width:991px){.contact-map{margin-top:1.5rem}}
+    </style>
   </head>
   <body>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -41,234 +64,67 @@
 	        	<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
 	        	<li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
 	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<!-- <li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li> -->
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg-1.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url(/Images/salonbackground3.avif);" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
-            <!-- <h2 class="mb-0 bread">Blog</h2> -->
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-round-forward"></i></a></span> <span>Blog <i class="ion-ios-arrow-round-forward"></i></span></p>
+            <h2 class="mb-0 bread">Contact us</h2>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-round-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-round-forward"></i></span></p>
           </div>
         </div>
       </div>
     </section>
-    
-    <section class="ftco-section ftco-degree-bg">
+
+    <section class="ftco-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 ftco-animate">
-						<div class="row">
-							<div class="col-md-12 d-flex ftco-animate">
-		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="blog-single.html" class="block-20" style="background-image: url('images/work-1.jpg');">
-		              </a>
-		              <div class="text d-block pl-md-4">
-		              	<div class="meta mb-3">
-		                  <div><a href="#">Sept. 12, 2019</a></div>
-		                  <div><a href="#">Admin</a></div>
-		                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-		                </div>
-		                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <p><a href="blog-single.html" class="btn btn-primary py-2 px-3">Read more</a></p>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-12 d-flex ftco-animate">
-		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="blog-single.html" class="block-20" style="background-image: url('images/work-2.jpg');">
-		              </a>
-		              <div class="text d-block pl-md-4">
-		              	<div class="meta mb-3">
-		                  <div><a href="#">Sept. 12, 2019</a></div>
-		                  <div><a href="#">Admin</a></div>
-		                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-		                </div>
-		                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <p><a href="blog-single.html" class="btn btn-primary py-2 px-3">Read more</a></p>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-12 d-flex ftco-animate">
-		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="blog-single.html" class="block-20" style="background-image: url('images/work-3.jpg');">
-		              </a>
-		              <div class="text d-block pl-md-4">
-		              	<div class="meta mb-3">
-		                  <div><a href="#">Sept. 12, 2019</a></div>
-		                  <div><a href="#">Admin</a></div>
-		                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-		                </div>
-		                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <p><a href="blog-single.html" class="btn btn-primary py-2 px-3">Read more</a></p>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-12 d-flex ftco-animate">
-		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="blog-single.html" class="block-20" style="background-image: url('images/work-4.jpg');">
-		              </a>
-		              <div class="text d-block pl-md-4">
-		              	<div class="meta mb-3">
-		                  <div><a href="#">Sept. 12, 2019</a></div>
-		                  <div><a href="#">Admin</a></div>
-		                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-		                </div>
-		                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <p><a href="blog-single.html" class="btn btn-primary py-2 px-3">Read more</a></p>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-12 d-flex ftco-animate">
-		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="blog-single.html" class="block-20" style="background-image: url('images/work-5.jpg');">
-		              </a>
-		              <div class="text d-block pl-md-4">
-		              	<div class="meta mb-3">
-		                  <div><a href="#">Sept. 12, 2019</a></div>
-		                  <div><a href="#">Admin</a></div>
-		                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-		                </div>
-		                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <p><a href="blog-single.html" class="btn btn-primary py-2 px-3">Read more</a></p>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-12 d-flex ftco-animate">
-		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="blog-single.html" class="block-20" style="background-image: url('images/work-6.jpg');">
-		              </a>
-		              <div class="text d-block pl-md-4">
-		              	<div class="meta mb-3">
-		                  <div><a href="#">Sept. 12, 2019</a></div>
-		                  <div><a href="#">Admin</a></div>
-		                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-		                </div>
-		                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <p><a href="blog-single.html" class="btn btn-primary py-2 px-3">Read more</a></p>
-		              </div>
-		            </div>
-		          </div>
-						</div>
-						<div class="row mt-5">
-		          <div class="col">
-		            <div class="block-27">
-		              <ul>
-		                <li><a href="#">&lt;</a></li>
-		                <li class="active"><span>1</span></li>
-		                <li><a href="#">2</a></li>
-		                <li><a href="#">3</a></li>
-		                <li><a href="#">4</a></li>
-		                <li><a href="#">5</a></li>
-		                <li><a href="#">&gt;</a></li>
-		              </ul>
-		            </div>
-		          </div>
-		        </div>
-          </div> <!-- .col-md-8 -->
-          <div class="col-lg-4 sidebar ftco-animate">
-            <div class="sidebar-box bg-light">
-              <form action="#" class="search-form bg-light">
-                <div class="form-group">
-                  <span class="icon ion-ios-search"></span>
-                  <input type="text" class="form-control" placeholder="Search...">
-                </div>
-              </form>
-            </div>
-            <div class="sidebar-box bg-light ftco-animate">
-            	<h3 class="heading-2">Categories</h3>
-              <ul class="categories">
-                <li><a href="#">Bags <span>(12)</span></a></li>
-                <li><a href="#">Shoes <span>(22)</span></a></li>
-                <li><a href="#">Dress <span>(37)</span></a></li>
-                <li><a href="#">Accessories <span>(42)</span></a></li>
-                <li><a href="#">Makeup <span>(14)</span></a></li>
-                <li><a href="#">Beauty <span>(140)</span></a></li>
+          <div class="col-lg-5 ftco-animate mb-4 mb-lg-0">
+            <div class="contact-card">
+              <h2>Visit Viridian Salon</h2>
+              <ul class="contact-list">
+                <li><span class="icon icon-map-marker"></span><span>1420 Verdant Avenue<br>Los Angeles, CA 90028</span></li>
+                <li><span class="icon icon-phone"></span><a href="tel:+13235550142">(323) 555-0142</a></li>
+                <li><span class="icon icon-envelope"></span><a href="mailto:info@viridiansalon.com">info@viridiansalon.com</a></li>
+              </ul>
+              <h3>Hours</h3>
+              <ul class="hours">
+                <li><span>Monday</span><span class="closed">Closed</span></li>
+                <li><span>Tuesday &ndash; Friday</span><span>10am &ndash; 7pm</span></li>
+                <li><span>Saturday</span><span>9am &ndash; 6pm</span></li>
+                <li><span>Sunday</span><span>10am &ndash; 4pm</span></li>
               </ul>
             </div>
-
-            <div class="sidebar-box bg-light ftco-animate">
-              <h3 class="heading-2">Recent Blog</h3>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading-1"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Sept. 12, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading-1"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Sept. 12, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_3.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading-1"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Sept. 12, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="sidebar-box bg-light ftco-animate">
-              <h3 class="heading-2">Tag Cloud</h3>
-              <div class="tagcloud">
-                <a href="#" class="tag-cloud-link">donate</a>
-                <a href="#" class="tag-cloud-link">charity</a>
-                <a href="#" class="tag-cloud-link">non-profit</a>
-                <a href="#" class="tag-cloud-link">organization</a>
-                <a href="#" class="tag-cloud-link">child</a>
-                <a href="#" class="tag-cloud-link">abuse</a>
-                <a href="#" class="tag-cloud-link">help</a>
-                <a href="#" class="tag-cloud-link">volunteer</a>
-              </div>
-            </div>
-
-            <div class="sidebar-box bg-light ftco-animate">
-              <h3 class="heading-2">Paragraph</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
-            </div>
           </div>
+          <div class="col-lg-7 ftco-animate">
+            <div class="contact-map">
+              <iframe title="Map of the Hollywood area of Los Angeles" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-118.3500%2C34.0800%2C-118.3000%2C34.1200&amp;layer=mapnik"></iframe>
+            </div>
+            <p class="map-note">Map shows the general Los Angeles area.</p>
+          </div>
+        </div>
 
+        <div class="contact-book ftco-animate">
+          <p class="lead-in">Ready for your new favorite haircut?</p>
+          <p><a href="index.html#booking" class="btn btn-primary btn-outline-primary px-4 py-2">Book now</a></p>
         </div>
       </div>
-    </section> <!-- .section -->
-
+    </section>
 
     <footer class="ftco-footer ftco-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2 logo">Haircare</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h2 class="ftco-heading-2 logo">Viridian Salon</h2>
+              <p>Helping you show the world the real you one haircut at a time.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -294,19 +150,18 @@
                 <li><a href="#" class="py-2 d-block">About</a></li>
                 <li><a href="#" class="py-2 d-block">Services</a></li>
                 <li><a href="#" class="py-2 d-block">Work</a></li>
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
                 <li><a href="#" class="py-2 d-block">Contact</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2">Have a Question?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">1420 Verdant Avenue, Los Angeles, CA 90028</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">(323) 555-0142</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@viridiansalon.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -315,9 +170,9 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <!-- <p>Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
   Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+  Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. </p> -->
           </div>
         </div>
       </div>
@@ -343,9 +198,7 @@
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+      <script src="js/main.js"></script>
     
   </body>
 </html>

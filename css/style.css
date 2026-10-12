@@ -10100,3 +10100,8 @@ textarea.form-control {
 @media (max-width: 991.98px) {
   .lookbook .project .icon {
     top: 18px; } }
+
+/* ---- Phones: keep page-title heading inside the screen ---- */
+@media (max-width: 575.98px) {
+  .slider-text .bread { font-size: clamp(40px, 13vw, 80px); }
+}
