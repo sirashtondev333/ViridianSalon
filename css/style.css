@@ -10105,3 +10105,12 @@ textarea.form-control {
 @media (max-width: 575.98px) {
   .slider-text .bread { font-size: clamp(40px, 13vw, 80px); }
 }
+
+/* ---- Inner-page banners: shorter on tablets and phones ---- */
+@media (max-width: 767.98px) {
+  .hero-wrap.hero-wrap-2,
+  .hero-wrap.hero-wrap-2 .overlay {
+    height: 320px; }
+  .hero-wrap.hero-wrap-2 .slider-text {
+    height: 320px !important; }
+}
