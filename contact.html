@@ -44,8 +44,11 @@
       .hours .closed{color:#e3c08d}
       .contact-map{border-radius:18px;overflow:hidden;border:1px solid rgba(191,146,91,.35);box-shadow:0 10px 28px rgba(0,0,0,.18);height:100%;min-height:380px;background:#ebe8de}
       .contact-map iframe{width:100%;height:100%;min-height:380px;border:0;display:block}
-      .contact-book{text-align:center;margin-top:3rem}
-      .contact-book p.lead-in{font-family:"florentialight",Georgia,serif;font-size:1.3rem;color:#3d3d3d;margin-bottom:1.25rem}
+      .contact-book{text-align:center;margin-top:clamp(2rem,5vw,5rem)}
+      .contact-book{padding-top:0}
+      .contact-book h2.lead-in{font-family:"Florentia",Georgia,serif;font-weight:400;font-size:clamp(1.75rem,3.4vw,2.6rem);line-height:1.15;color:#1c1c1c;position:relative;padding-bottom:1.25rem;margin-bottom:1.5rem}
+      .contact-book h2.lead-in .accent{color:#9a6c2c}
+      .contact-book h2.lead-in:after{content:"";position:absolute;left:50%;bottom:0;width:72px;height:2px;background:#bf925b;transform:translateX(-50%)}
       .map-note{font-size:.8rem;color:#777;text-align:center;margin-top:.6rem}
       @media (max-width:991px){.contact-map{margin-top:1.5rem}}
     </style>
@@ -112,7 +115,7 @@
         </div>
 
         <div class="contact-book ftco-animate">
-          <p class="lead-in">Ready for your new favorite haircut?</p>
+          <h2 class="lead-in">Ready for your <span class="accent">new favorite haircut</span>?</h2>
           <p><a href="index.html#booking" class="btn btn-primary btn-outline-primary px-4 py-2">Book now</a></p>
         </div>
       </div>
