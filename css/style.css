@@ -10114,3 +10114,20 @@ textarea.form-control {
   .hero-wrap.hero-wrap-2 .slider-text {
     height: 320px !important; }
 }
+
+/* ---- Phones: larger tagline above the hero title ---- */
+@media (max-width: 767.98px) {
+  .slider-text .subheading {
+    font-size: clamp(18px, 5vw, 24px);
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    display: block;
+    padding: 0 8px;
+    margin-bottom: .5rem;
+    text-shadow: 0 1px 6px rgba(0,0,0,.65); }
+}
+
+/* Phones: keep the hero title larger than the tagline above it */
+@media (max-width: 767.98px) {
+  .slider-text h1 { font-size: clamp(44px, 13vw, 64px); }
+}
