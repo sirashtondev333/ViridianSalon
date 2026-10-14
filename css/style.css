@@ -10131,3 +10131,14 @@ textarea.form-control {
 @media (max-width: 767.98px) {
   .slider-text h1 { font-size: clamp(44px, 13vw, 64px); }
 }
+
+/* ---- Footer: trim the empty space under the contact details ---- */
+.ftco-footer {
+  padding: 5em 0 3em; }
+.ftco-footer .row.mb-5 {
+  margin-bottom: 1.5rem !important; }
+.ftco-footer .row:last-child p {
+  margin: 0; }
+@media (max-width: 767.98px) {
+  .ftco-footer {
+    padding: 4em 0 2.5em; } }
