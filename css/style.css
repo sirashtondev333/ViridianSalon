@@ -36,12 +36,12 @@
 
   @font-face {
     font-family: "Florentia";
-    src: url(/Fonts/Florentia-Regular-trial.ttf);
+    src: url(../fonts/Florentia-Regular-trial.ttf);
 }
 
 @font-face {
     font-family: "florentialight";
-    src: url(/Fonts/Florentia-Light-trial.ttf);
+    src: url(../fonts/Florentia-Light-trial.ttf);
 }
 
 #appointment_name {
