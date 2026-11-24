@@ -110,6 +110,7 @@
 		});
 		$('.carousel-team').owlCarousel({
 			autoplay: true,
+			loop: true,
 			autoHeight: true,
 			items:1,
 			margin: 30,
